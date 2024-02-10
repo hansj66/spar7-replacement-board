@@ -79,7 +79,7 @@ Følgende kan forhindre at hopperen fungerer som den skal:
 
 ### Hvis hopperen roterer svært sakte, eller starter sakte
 
-Hvis pkt 3 og 4 i avsnittet over er ok, så kan dette skyldes seig olje i giret på motoren. Hele hopper-mekanismen må da kobles fra spillet og demonteres. Gammelt fett og seig olje kan fjernes med white sprite eller lignende.
+Hvis pkt 3 og 4 i avsnittet over er ok, så kan dette skyldes seig olje i giret på motoren. Hele hopper-mekanismen må da kobles fra spillet og demonteres. Gammelt fett og seig olje kan fjernes med white spirit eller lignende.
 
 NB! Vær svært forsiktig når du løsner myntplata fra akslingen, slik at denne ikke knekker.
 
