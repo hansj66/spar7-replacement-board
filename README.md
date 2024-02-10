@@ -8,6 +8,10 @@ Dette er siste revisjon av det som i utgangspunktet var et "voksenopplæringspro
 
 Siste versjon av kortet er fra 2013 (v6). Siste versjon av firmware er v7.
 
+## Lisens
+
+Firmware og CAD-filer i dette repositoryet er tilgjengelig under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) lisens.
+
 ## Innhold
 
 * [Firmware](Firmware) - Inneholder programvare. Kildekoden er laget i Atmel Studio 7. Her ligger også hex-fil for siste versjon. Det er ingen programmeringsheader på kortet, så mikrokontrolleren må flashes før montering. Dette kan gjøres med en hvilken som helst ISP programmerer. Chippen kan monteres på et breadboard og gis 5V. Deretter programmeres med f.eks en [AVRISP MKII](https://www.microchip.com/en-us/development-tool/atavrisp2)
