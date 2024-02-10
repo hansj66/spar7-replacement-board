@@ -44,14 +44,14 @@ Dette er også amatørelektronikk. Dvs det er ingen garanti for at ikke kortet t
 1. Koble fra strømmen igjen og sett inn erstatningskortet. Koble evt displayconnectoren til det nye kortet. Displayconnectoren på de gamle Spar7’ene har ikke noen key, så det er mulig å sette inn denne feil vei. (Koble ut strømmen og snu connectoren hvis displayet ikke lyser)
 1. Sjekk at begge lysdiodene lyser. Hvis en eller begge av disse er mørke, så er er det sannsynligvis feil ved transformatoren i automaten. Alternativt, så kan det skyldes korrosjon / oksidasjon av edgeconnectoren som kortet er montert i.
 
-![kort](pictures/kort.png)
+![kort](Pictures/kort.png)
 
 ## Initiell test
 
 1. Åpne knipsekassa og gjenta følgende for hver gevinstport:
 1. Aktiver bryteren på baksiden av gevinstporten. Sjekk at gevinst vises i displayet.. Du vil høre at hopper-releet slår inn, slik at bremsen på hoppermotoren kobles fra. Hopperen skal nå begynne å rotere. Gevinst i displayet teller ned med en, inntil hele gevinsten er utbetalt.
 
-![gevinstbryter](pictures/gevinstport.png)
+![gevinstbryter](Pictures/gevinstport.png)
 
 ## Generell feilsøking i Spar7
 
@@ -95,9 +95,9 @@ Hopperen betaler ut en mynt ved hver kvart aktivering av hopperbryterenrotasjon.
 
 Kortet er testet med både NC og NO tilkobling. Mulig erstatningsbryter er: DigiKey delenummer: SW872-ND
 
-![hopper1](pictures/hopper_topp.png)
+![hopper1](Pictures/hopper_topp.png)
 
-![hopper2](pictures/hopper_underside.png)
+![hopper2](Pictures/hopper_underside.png)
 
 ### Reservedeler
 
