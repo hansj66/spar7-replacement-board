@@ -3,7 +3,7 @@
 
 ## Bakgrunn
 
-Dette er siste revisjon av det som i utgangspunktet var et "voksenopplæringsprosjekt" for mange, mange år siden. Dvs jeg ønsket den gang å lære meg å programmere mikrokontrollere, samt gjøre enkle PCB design. Skjema, utlegg og kode bærer preg av dette. Jeg hadde tilgang til en defekt Spar7 og dette var et perfekt prosjekt å bryne seg på.
+Dette er siste revisjon av det som i utgangspunktet var et "voksenopplæringsprosjekt" for mange, mange år siden. Dvs jeg ønsket den gang å lære meg å programmere mikrokontrollere, samt gjøre enkle PCB design. Skjema, utlegg og kode bærer nok dessverre preg av dette. Jeg hadde tilgang til en defekt Spar7 og dette var den gang et perfekt prosjekt å bryne seg på.
 
 
 Siste versjon av kortet er fra 2013 (v6). Siste versjon av firmware er v7.
@@ -36,12 +36,12 @@ Dette er også amatørelektronikk. Dvs det er ingen garanti for at ikke kortet t
 ## Installasjon
 
 1. Trekk ut kontakten til automaten.
-1. Trekk ut det gamle kortet fra edge-connectoren og trekk også evt ut IDC-connectoren, som går til displayet, hvis du har en variant med displaysiffer (Ikke alle automatene, som kortet fungerer i, har dette)
+1. Trekk ut det gamle kortet fra edge-connectoren og trekk også evt ut IDC-connectoren, som går til displayet, hvis du har en variant med displaysiffer (Ikke alle automatene, som kortet fungerer i, har dette).
 1. Anta at pinnenummereringen på edgeconnectoren starter nærmest hopperen. Pinnen lengst til høyre (nærmest hopperen) er pinne nummer 1. Sjekk at transformatoren i kabinettet ikke er defekt ved å sette i strømkontakten uten noe kort i og sjekk følgende:  
-    1. 18VAC mellom pinne 1 og 2  
-    1.  220-230VAC (nettspenning) mellom pinne 5 og 6
+    1. 18VAC mellom pinne 1 og 2  .
+    1. 220-230VAC (nettspenning) mellom pinne 5 og 6.
     1. (med en pinne mot jord). Mål resten av pinnene. Du skal ikke kunne detektere vekselspenning eller likespenning mellom jord og pinne 3,8,9,19,11,12 eller 13. Hvis kortet likevel installeres, så vil dette ødelegges.
-1. Koble fra strømmen igjen og sett inn erstatningskortet. Koble evt displayconnectoren til det nye kortet. Displayconnectoren på de gamle Spar7’ene har ikke noen key, så det er mulig å sette inn denne feil vei. (Koble ut strømmen og snu connectoren hvis displayet ikke lyser)
+1. Koble fra strømmen igjen og sett inn erstatningskortet. Koble evt displayconnectoren til det nye kortet. Displayconnectoren på de gamle Spar7’ene har ikke noen key, så det er mulig å sette inn denne feil vei. (Koble ut strømmen og snu connectoren hvis displayet ikke lyser).
 1. Sjekk at begge lysdiodene lyser. Hvis en eller begge av disse er mørke, så er er det sannsynligvis feil ved transformatoren i automaten. Alternativt, så kan det skyldes korrosjon / oksidasjon av edgeconnectoren som kortet er montert i.
 
 ![kort](Pictures/kort.png)
@@ -49,7 +49,7 @@ Dette er også amatørelektronikk. Dvs det er ingen garanti for at ikke kortet t
 ## Initiell test
 
 1. Åpne knipsekassa og gjenta følgende for hver gevinstport:
-1. Aktiver bryteren på baksiden av gevinstporten. Sjekk at gevinst vises i displayet.. Du vil høre at hopper-releet slår inn, slik at bremsen på hoppermotoren kobles fra. Hopperen skal nå begynne å rotere. Gevinst i displayet teller ned med en, inntil hele gevinsten er utbetalt.
+    1. Aktiver bryteren på baksiden av gevinstporten. Sjekk at gevinst vises i displayet.. Du vil høre at hopper-releet slår inn, slik at bremsen på hoppermotoren kobles fra. Hopperen skal nå begynne å rotere. Gevinst i displayet teller ned med en, inntil hele gevinsten er utbetalt.
 
 ![gevinstbryter](Pictures/gevinstport.png)
 
@@ -61,7 +61,7 @@ Bryteren kan være defekt, eller det kan ha oppstått kabelbrudd mellom bryteren
 
 Bryterne kan testes manuelt hvis kortet trekkes ut av knipsekassa (med strømmen av).
 
-Bryteren kan med et multimeter med kontinuitetssjekk. Bryterne kan ha både NC (Normally closed) og NO (Normally open) tilkoblinger. En defekt bryter kan feile ved at NC-tilkoblingen ikke er lukket når bryteren er i hvilestilling, eller ved at NO-tilkoblingen ikke lukkes når bryteren er aktiv. Vippearmen på bryteren kan også være deformert eller knekt.
+Bryteren kan testes med et multimeter med kontinuitetssjekk. Bryterne kan ha både NC (Normally closed) og NO (Normally open) tilkoblinger. En defekt bryter kan feile ved at NC-tilkoblingen ikke er lukket når bryteren er i hvilestilling, eller ved at NO-tilkoblingen ikke lukkes når bryteren er aktiv. Vippearmen på bryteren kan også være deformert eller knekt.
 
 De to nederste pinnene på bryterne ved gevinstportene er NC og øverste + nederste pinne er NO. Ledningsbrudd kan finnes ved å måle kontinuitet mellom nederste pinne på gevinstporten og pinne#3 fra venstre på edgeconnectoren.
 
