@@ -26,6 +26,14 @@ Firmware og CAD-filer i dette repositoryet er tilgjengelig under [CC BY-NC 4.0](
 
 * [Bill of Materials](bill_of_materials.pdf) - Komponentliste, med DigiKey delenummer og estimert pris pr 10.02.2024.
 
+## Programmering
+
+Se underkatalogen [Firmware](./Firmware). Hexfila kan flashes direkte på mikrokontrolleren, eller man kan kompilere opp og flashe via Atmel Studio.
+
+NB!
+
+* Pass på at CKDIV8 fuse ikke er satt.
+* Hvis rekompilering fra scratch, så bruk optimaliseringsflagg O1.
 
 ## LES DETTE FØR DU BEGYNNER!
 
